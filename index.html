@@ -4,8 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial - Botique Perola</title>
-    <link rel="stylesheet" type="text/css" href="designer.css">
+    <style type="text/css">
+body{
+    margin: 0 auto
+    font-size: 25px;
+    background-color: rgba(132, 90, 38, 0.875);
+    color: rgb(233, 223, 211);
+}
 
+.capa {
+    width: 1550px;
+    height: 400px;
+    object-fit: cover;
+    object-position: -50px -300px;
+}
+
+#dropdownmenu {
+
+    background-color: rgb(99, 62, 17);
+}
+
+#dropdownmenu ul {
+    
+    max-width: 800px;
+    list-style: none;
+    padding: 0; 
+}
+
+#dropdownmenu ul li a{
+    color:hsl(0, 0%, 75%);
+    padding: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .7s;
+}
+
+#dropdownmenu ul li a:hover{
+
+    background: rgba(132, 90, 38, 0.875);
+    color: #ffffff;
+}
+#dropdownmenu ul li:last-child a{
+    float: right;
+    background-color: rgb(164, 109, 41);
+}
+
+
+.dropdownmenu {
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.dropdownmenu ul ul {
+    display: none;
+}
+
+.dropdownmenu ul li:hover > ul {
+    display: block;
+}
+
+.dropdownmenu ul {
+    list-style: none;
+    background: gray;
+    margin: 0; 
+    padding: 0; 
+    display: inline-block;
+    vertical-align: top; 
+}
+
+.dropdownmenu ul li {
+    float: left;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.dropdownmenu ul li a {
+    display: block; 
+    padding: 10px 15px;
+    background: rgba(132, 90, 38, 0.875);
+    color: #ffffff;
+    text-decoration: none;
+    font: bold 12px/20px sans-serif;
+    padding: 10px 25px;
+    text-align: center;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}  
+
+.dropdownmenu ul li ul li a:hover {
+    color: #ffffff;
+    background: #000000;
+}    
+
+.dropdownmenu ul li a:hover {
+    color: #ffffff;
+    background: #000000;
+}  
+
+.dropdownmenu ul ul {
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+}
+
+.dropdownmenu ul ul li {
+    float: none; 
+    position: relative;
+}
+
+.dropdownmenu ul li ul li a {
+    color: #ffffff;
+    background:rgba(132, 90, 38, 0.875);
+}
+
+.dropdownmenu ul ul ul {
+    position: absolute;
+    top:0;
+}
+
+div {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin: 40px;
+<\style>
 </head>
 
 
